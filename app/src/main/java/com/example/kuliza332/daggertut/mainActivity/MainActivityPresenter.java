@@ -40,7 +40,6 @@ public class MainActivityPresenter implements MainActivityContract.Presenter {
         if (apiHelper != null) {
             apiHelper.getFollowers().cancel();
         }
-
         this.view = null;
     }
 
